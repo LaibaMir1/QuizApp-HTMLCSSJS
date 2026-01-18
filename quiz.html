@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+
+<div class="app">
+    <h1>Quiz App</h1>
+
+    <div class="quiz-selection">
+        <h2>Select a Quiz</h2>
+        <button id="html-css-js-btn" class="btn">HTML, CSS & JavaScript</button>
+        <button id="ict-btn" class="btn">ICT</button>
+        <button id="ai-btn" class="btn">AI</button>
+    </div>
+
+    <h4 id="instructions">
+        You have 10 questions. Each correct answer gives 1 point.
+    </h4>
+    <h3 id="best-of-luck">Best of Luck!</h3>
+
+    <div id="timer">Time Left: 10s</div>
+
+    <div class="quiz">
+        <h2 id="question"></h2>
+        <div id="answer-button"></div>
+
+        <div class="controls">
+            <button id="next-btn">Next</button>
+            <button id="exit-btn">Exit</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
